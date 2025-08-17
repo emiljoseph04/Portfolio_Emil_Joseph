@@ -506,3 +506,57 @@ color: #fff;
   background: #5b21b6;
   transform: translateY(-2px);
 }
+.footer {
+  background: linear-gradient(#7C3AED 0%, #2E1065 60%, #0f0f1c 100%);
+  color: #fff;
+  text-align: center;
+  padding: 30px 15px;
+  font-family: Arial, sans-serif;
+}
+
+.footer h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footer p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
+
+.footer .social-icons {
+  margin: 15px 0;
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+  color: #7C3AED;
+  font-size: 1.3rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #9f67ff;
+  transform: scale(1.2);
+}
+
+.footer .email i {
+  color: #7C3AED;
+  margin-right: 6px;
+}
+
+.footer .copyright {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+.footer-note {
+  margin-top: 18px;
+  font-size: 0.85rem;
+  color: #d1c4f6;   /* softer purple instead of white */
+  letter-spacing: 0.5px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 10px;
+}
+
